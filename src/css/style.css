@@ -9,7 +9,7 @@ body * {
 }
 
 body {
-    background: linear-gradient(150deg,#373D98, #000000);
+    background: linear-gradient(150deg,#185B34, #000000);
     height: 100vh;
     text-align: center;
     overflow: hidden;
@@ -23,7 +23,7 @@ header {
     display: inline-block;
     width: 354px;
     height: 508px;
-    background-image: url(/src/assets/bg-explorer.svg);
+    background-image: url(/src/assets/bg-ignite.svg);
     cursor: pointer;
     opacity: 0;
     transform: translateY(-100px);
