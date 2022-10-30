@@ -6,5 +6,8 @@ const changeCard = e => {
     ? "url(src/assets/bg-ignite.svg)"
     : "url(src/assets/bg-explorer.svg)"
     isIgnite = !isIgnite
-    card.style.backgroundImage = backgroundImage
+    changeBackground(card, backgroundImage)
 }
+
+const changeBackground = (element, backgroundImage) => 
+    element.style.backgroundImage = backgroundImage
